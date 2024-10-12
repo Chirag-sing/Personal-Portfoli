@@ -95,6 +95,7 @@ body{
     padding-left: 10px;
     font-size: 17px;
     font-weight: 500;
+    font-family: cursive;
 }
 ul.projects-list {
     padding: 0px;   
@@ -118,6 +119,7 @@ ul.projects-list {
     line-height: 30px;
     font-size: 17px;
     font-weight: 500;
+    font-family: cursive;
 }
 .work-experiance p{
    font-size: 14px;
@@ -143,6 +145,7 @@ ul.projects-list {
     line-height: 30px;
     font-size: 17px;
     font-weight: 500;
+    font-family: cursive;
 }
 .education p{
     font-size: 14px;
@@ -173,7 +176,7 @@ ul.projects-list {
 }
 .reviews-heading{
     font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     font-weight: 500;
     text-align: left;
     padding: 20px 50px 15px 50px;
@@ -203,7 +206,58 @@ ul.projects-list {
 .copyright{
     font-size: 18px;
     font-weight: 400;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     text-align: center;
     color: #000;
+}
+@media (max-width: 480px) {
+    .header-container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-list{
+          width: auto;     
+    }
+    .portfolio-details{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .project{
+        width: 100%;
+        text-align: center;       
+    }
+    .projects-list li{
+        text-align: center;
+        background-color: rgb(173, 219, 238);
+    }
+    .courses{
+        width: 100%;
+        text-align: center;
+    }
+    .education{
+        width: 100%;
+    }
+    .work-experiance{
+        width: 100%;
+    }
+    .work-experiance span{
+        width: 100%;
+        text-align: center;
+    }
+    .education span{
+        text-align: center;
+    }
 }
